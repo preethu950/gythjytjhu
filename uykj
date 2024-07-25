@@ -16,4 +16,3 @@ Then the app should display the estimated fare and time of arrival for each opti
 Scenario 4: Confirming the ride
 
 Given that I have chosen my preferred ride option,
-When I confirm the booking
