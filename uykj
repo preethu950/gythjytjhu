@@ -1,1 +1,19 @@
-ibibijbibuibiub
+Scenario 1: Booking a ride
+
+Given that I have the Inficab app installed and my location services are enabled,
+When I open the app,
+Then I should see a map interface with my current location pinpointed.
+Scenario 2: Entering destination
+
+Given that I am on the map interface,
+When I tap on the search bar and enter my destination,
+Then the app should provide autocomplete suggestions for destinations.
+Scenario 3: Selecting a ride
+
+Given that I have entered my destination,
+When I select a type of vehicle (e.g., sedan, SUV, luxury),
+Then the app should display the estimated fare and time of arrival for each option.
+Scenario 4: Confirming the ride
+
+Given that I have chosen my preferred ride option,
+When I confirm the booking
